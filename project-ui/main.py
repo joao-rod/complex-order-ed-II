@@ -83,7 +83,6 @@ window = sg.Window(
 )
 
 while True:
-  valid = bool
   events, values = window.read()
   if events == sg.WINDOW_CLOSED or events == 'exit':
     break
